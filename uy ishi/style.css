@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1177946136/video/abstract-colorful-wavy-background-in-bright-rainbow-colors.jpg?s=640x640&k=20&c=V10cWkHHy5Xo7Wbu1QUJ8hZFpWAa879rh_xnl9_iVa0=);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: end;
+}
+.glass-animation{
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    /* border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-radius: 3rem; */
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(100px);
+    width: 30%;
+    border-radius: 3rem;
+    height: 200px;
+    margin: auto;
+    margin-top: 200px;
+}
